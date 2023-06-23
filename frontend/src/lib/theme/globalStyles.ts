@@ -1065,7 +1065,5 @@ max-width: 95% !important;
     }
 
 
-        #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div {
-        display:none;
-            }
+
 `
