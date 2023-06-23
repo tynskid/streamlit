@@ -362,4 +362,3 @@ export const StyledSidebarHeader = styled.div`
     text-transform: uppercase;
     width: 90%;
 `
-
