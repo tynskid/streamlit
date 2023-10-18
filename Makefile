@@ -85,17 +85,17 @@ develop:
 .PHONY: python-init-all
 # Install Streamlit and all (test and dev) requirements
 python-init-all:
-	INSTALL_DEV_REQS=true INSTALL_TEST_REQS=true make python-init
+	INSTALL_DEV_REQS=false INSTALL_TEST_REQS=false make python-init
 
 .PHONY: python-init-dev-only
 # Install Streamlit and dev requirements
 python-init-dev-only:
-	INSTALL_DEV_REQS=true INSTALL_TEST_REQS=false make python-init
+	INSTALL_DEV_REQS=false INSTALL_TEST_REQS=false make python-init
 
 .PHONY: python-init-test-only
 # Install Streamlit and test requirements
 python-init-test-only: lib/test-requirements.txt
-	INSTALL_DEV_REQS=false INSTALL_TEST_REQS=true make python-init
+	INSTALL_DEV_REQS=false INSTALL_TEST_REQS=false make python-init
 
 .PHONY: python-init
 python-init:
