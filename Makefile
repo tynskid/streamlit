@@ -16,8 +16,8 @@
 # /bin/sh is POSIX compliant, ie it's not bash.  So let's be explicit:
 SHELL=/bin/bash
 
-INSTALL_DEV_REQS ?= true
-INSTALL_TEST_REQS ?= true
+INSTALL_DEV_REQS ?= false
+INSTALL_TEST_REQS ?= false
 TENSORFLOW_SUPPORTED ?= $(shell python scripts/should_install_tensorflow.py)
 INSTALL_TENSORFLOW ?= $(shell python scripts/should_install_tensorflow.py)
 USE_CONSTRAINT_FILE ?= false
