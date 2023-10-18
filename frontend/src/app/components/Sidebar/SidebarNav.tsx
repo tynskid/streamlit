@@ -29,7 +29,7 @@ import {
   useIsOverflowing,
   StreamlitEndpoints,
   IAppPage,
-} from "@streamlit/lib"
+} from "src/lib"
 
 import {
   StyledSidebarNavContainer,
